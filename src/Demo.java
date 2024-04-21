@@ -4,24 +4,16 @@ public class Demo {
 
 
     public static void main(String[] args) {
-        welcome();
-        initRegion();
-        int sum = sum(5,9);
-        System.out.println(sum);
-        System.out.println(region);
 
-    }
+        Employee malik = new Employee();
+        malik.setAge(30);
+        malik.setName("Malik");
+        malik.requestTravel();
 
-    public static void welcome(){
-        System.out.println("Hello world!");
-        System.out.println("Welcome to Paris!");
-    }
+        Employee aziz = new Employee();
+        aziz.setAge(3);
+        aziz.setName("Aziz");
+        aziz.requestTravel();
 
-    public static int sum(int number_1, int number_2){
-        return number_1 + number_2;
-    }
-
-    public static void initRegion(){
-        region = "AFRIKA";
     }
 }
