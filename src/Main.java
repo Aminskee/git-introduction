@@ -5,6 +5,6 @@ public class Main {
 
     public void welcome(){
         System.out.println("Hello world!");
-        System.out.println("Welcome to Dubai!");
+        System.out.println("Welcome to Paris!");
     }
 }
